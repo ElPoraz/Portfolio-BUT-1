@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+input, textarea, button{
+    border: 0;
+    background: transparent;
+    outline: none;
+}
+
+
+body{
+    background: #081b29;
+    color: white;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+.navbar a:hover{
+    color: #2576b9;
+}
+
+.navbar a.active{
+    color: #2576b9;
+}
+
+
+.contact{
+    min-height: auto;
+    padding-top: 16rem;
+}
+
+.contact form{
+    max-width: 65rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact form .text-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact form .text-box .text{
+    position: relative;
+    width: 49%;
+    margin: .8rem 0;
+}
+
+.contact form .text-box .text input,
+.contact form .message-box textarea{
+    border-radius: 0.6rem;
+    background: transparent;
+    border-color: #2576b9;
+    width: 100%;
+    height: 100%;
+    padding: 1.0rem;
+    font-size: 1.0rem;
+    color:#2576b9;
+    border: .2rem solid ;
+}
+
+.contact form .text-box .text input::placeholder,
+.contact form .message-box textarea::placeholder{
+    color:white
+}
+
+.btn-box {
+    display: inline-flex;
+    justify-content: center;
+    width: 130px;
+    height: 100%;
+    background: #2576b9;
+    border: 2px solid #2576b9;
+    color: #081b29;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: .5rem;
+    border-radius: 8px;
+}
+
+.btn{
+    font-size: 1.3rem;
+}
+
+
+h2{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+#bleu{
+    color: #2576b9;
+    justify-content: center;
+    display: flex;
+    margin-right: 10px;
+}
