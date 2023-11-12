@@ -88,6 +88,7 @@ body{
     font-size: 1.0rem;
     color:#2576b9;
     border: .2rem solid ;
+    resize : none;
 }
 
 .contact form .text-box .text input::placeholder,
