@@ -39,11 +39,11 @@ body{
 }
 
 .navbar a:hover{
-    color: #2576b9;
+    color: #4398de;
 }
 
 .navbar a.active{
-    color: #2576b9;
+    color: #4398de;
 }
 
 .home{
