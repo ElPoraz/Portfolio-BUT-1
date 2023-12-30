@@ -46,93 +46,58 @@ body{
     color: #2576b9;
 }
 
-.home{
+.education{
     display: flex;
     align-items: center;
-    height: 100vh;
-    padding: 0px 10%;
-}
-
-.home-content{
-    background-color: transparent;
-    max-width: 600px;
-}
-
-.home-content h1{
-    font-size: 50px;
-    font-weight: 700;
-}
-.home-content h3{
-    font-size: 25px;
-    font-weight: 700;
-    color: #2576b9;
-    margin-top: 10px;
-}
-.home-content p{
-    font-size: 15px;
-    font-weight: 400;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-.home-content .btn-box{
-    display: flex;
-    justify-content: space-between;
-    width: 350px;
-    height: 50px;
-    background: transparent;
-}
-
-.btn-box a{
-    position: relative;
-    display: inline-flex;
     justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 100%;
-    background: #2576b9;
-    border: 2px solid #2576b9;
-    border-radius: 8px;
-    font-size: 19px;
-    color: #081b29;
-    text-decoration: none;
-    font-weight: 600;
-    letter-spacing: 1px;
-    z-index: 1;
-    transition: .5s;
-
+    min-height: auto;
+    padding-bottom: 5rem;
+    padding-top: 20rem;
 }
 
-.btn-box a:nth-child(2){
+.education .rangee{
+    gap: 5rem;
+    display:inline-flex;
+    grid-auto-flow: column;
+}
+
+#bleu{
     color: #2576b9;
-    background: transparent;
-
 }
 
-.btn-box a:nth-child(2)::before{
-    background: #2576b9;
+.rangee .colonne{
+    height: auto;
+    flex: 1 1 40rem;
 }
 
-.btn-box a:nth-child(2):hover{
-    color: #081b29;
+.colonne .titre{
+    font-size: 2rem;
+    margin: 0 0 1.5rem 2rem;
 }
 
-.btn-box a::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0%;
-    height: 100%;
-    background:#081b29;
-    z-index: -1;
-    transition: .5s;
+.colonne .trait{
+    border-left: .2rem solid #2576b9;
 }
 
-.btn-box a:hover::before{
-    width: 100%;
+.trait .box .contenu{
+    position: relative;
+    padding-left: 2rem;
 }
 
-.btn-box a:hover{
+.contenu .contenubis{
+    position: relative;
+    padding: 1.5rem;
+    border: .2rem solid #2576b9;
+    border-radius: .6rem;
+    margin-bottom: 2rem;
+}
+
+.contenubis .date{
     color: #2576b9;
+    font-size: 1.2rem;
+    padding-bottom: .5rem;
+}
+
+.date i{
+    padding-right: .5rem;
 }
