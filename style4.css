@@ -141,6 +141,25 @@ body{
     display: flex ;
     align-items: center;
     justify-content: center;
-    margin-top: 150px;
+    padding-top: 8rem;
+}
 
+.cv img{
+    max-width: 400px;
+}
+
+@media (max-width: 600px) {
+
+    .navbar a {
+        font-size: 16px;
+    }
+
+    .header {
+        padding: 20px 3%;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+    
 }

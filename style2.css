@@ -52,7 +52,7 @@ body{
     justify-content: center;
     min-height: auto;
     padding-bottom: 5rem;
-    padding-top: 20rem;
+    padding-top: 10rem;
 }
 
 .education .rangee{
@@ -90,6 +90,7 @@ body{
     border: .2rem solid #2576b9;
     border-radius: .6rem;
     margin-bottom: 2rem;
+    min-height: 250px;
 }
 
 .contenubis .date{
@@ -100,4 +101,20 @@ body{
 
 .date i{
     padding-right: .5rem;
+}
+
+@media (max-width: 600px) {
+
+    .navbar a {
+        font-size: 16px;
+    }
+
+    .header {
+        padding: 20px 3%;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+    
 }

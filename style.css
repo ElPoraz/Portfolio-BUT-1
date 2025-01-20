@@ -98,7 +98,7 @@ body{
     font-weight: 600;
     letter-spacing: 1px;
     z-index: 1;
-    border-radius: 8px;
+    border-radius: 0px;
     transition: .5s;
 }
 
@@ -108,7 +108,23 @@ body{
     background: transparent;
 
 }
-/**
+
+@media (max-width: 600px) {
+
+    .navbar a {
+        font-size: 16px;
+    }
+
+    .header {
+        padding: 20px 3%;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+    
+}
+
 .btn-box a:nth-child(2)::before{
     background: #2576b9;
 }
@@ -137,4 +153,3 @@ body{
 .btn-box a:hover{
     color: #2576b9;
 }
-/
